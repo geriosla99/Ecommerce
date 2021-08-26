@@ -1,11 +1,13 @@
 import React from 'react'
-import { FooterContainer } from './FooterStyled'
+import { FooterContainer, TextFooter } from './FooterStyled'
 
 const Footer = () => {
     return (
         <>
             <FooterContainer>
-                hola desde footer
+                <TextFooter>
+                    hola desde footer
+                </TextFooter> 
             </FooterContainer>
         </>
     )

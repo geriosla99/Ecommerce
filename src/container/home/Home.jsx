@@ -1,9 +1,17 @@
 import React from 'react'
 import { Carousel, Image } from 'react-bootstrap'
+import { useHistory } from 'react-router-dom'
 import Footer from '../../components/footer/Footer'
 import Header from '../../components/header/Header'
+import { Categories, ContainerCategories, ImageCategories } from './HomeStyled'
 
 const Home = () => {
+
+    const history = useHistory();
+    const handleClick = () => {
+        history.push('/products');
+    };    
+
     return (
         <>
             <Header/>
@@ -30,14 +38,22 @@ const Home = () => {
                     />
                 </Carousel.Item>
             </Carousel>
-            <div>
-                Caballeros
-                <Image src='' alt='imagen de la categoria'/>
-            </div>
-            <div>
-                Damas
-                <Image src='' alt='imagen de la categoria'/>
-            </div>
+            <ContainerCategories>
+                <Categories onClick={handleClick}>
+                    Caballeros
+                    <ImageCategories                        
+                        src='https://i.imgur.com/ed0qWab.jpg' 
+                        alt='imagen de la categoria'
+                        />
+                </Categories>
+                <Categories onClick={handleClick}>
+                    Damas
+                    <ImageCategories                        
+                        src='https://i.imgur.com/DpgD0er.jpg' 
+                        alt='imagen de la categoria'
+                        />
+                </Categories>
+            </ContainerCategories>            
             <Footer/>
         </>
     )
