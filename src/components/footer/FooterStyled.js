@@ -9,8 +9,25 @@ export const FooterContainer = styled.div`
     position: static;
     height: 4em;
     padding: 0.5rem;
+    position: relative;
+    color: #e6e6e6;
 `;
 
-export const TextFooter = styled.p`
-    text-align: center;
+
+export const IconsContainer = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    color: #c7c7c7; 
+`;
+
+export const RRSS = styled.i`
+    margin: 0.5rem;
+    display: flex;
+    font-size: 1.2rem;
+    cursor: pointer;
+    &:hover{
+        color: #ededed;
+    }
 `;

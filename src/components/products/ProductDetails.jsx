@@ -8,12 +8,6 @@ const ProductDetails = (props) => {
     const { pro } = props.location.state;
     const [count, setCount] = useState(0)
 
-    const NumberNegative = () =>{
-        if( count < 0){
-            
-        }
-    }
-
     return (
         <>
             <Header/>     
@@ -29,7 +23,7 @@ const ProductDetails = (props) => {
                         <p>
                             {pro.description}
                         </p>
-                        <p>{pro.price}</p>
+                        <h4>{pro.price}</h4>
                         <QuantityItems>
                             <Button 
                                 variant="secondary"

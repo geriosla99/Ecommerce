@@ -19,6 +19,7 @@ const Cart = () => {
                         <th>Cantidad</th>
                         <th>Precio</th>
                         <th>Sub Total</th>
+                        <th></th>
                         </tr>
                     </thead>
                     <tbody>
@@ -28,6 +29,7 @@ const Cart = () => {
                         <td>Otto</td>
                         <td>@mdo</td>
                         <td>@mdo</td>
+                        <td className="bi bi-x-circle"></td>
                         </tr>                        
                     </tbody>
                 </Table>

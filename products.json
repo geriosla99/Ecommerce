@@ -1,4 +1,22 @@
 {
+    "icons": [
+        {
+          "name": "facebook",
+          "class": "bi bi-facebook"
+        },
+        {
+          "name": "twitter",
+          "class": "bi bi-twitter"
+        },
+        {
+          "name": "instagram",
+          "class": "bi bi-instagram"
+        },
+        {
+          "name": "linkedin",
+          "class": "bi bi-linkedin"
+        }
+      ],
     "categories":[
         {
             "id":"Dama",
