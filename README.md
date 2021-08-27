@@ -11,5 +11,6 @@ Este es un ecommerce sencillo, hecho con reactJS donde puedes seleccionar por ca
 
 ## En funcionamiento 
 
-1. Para correr el proyecto usa el comando ```yarn start```
-2. Disfruta ;)
+1. Para correr el proyecto usa el comando ```yarn start``` y levantar el servidor con ```json-server --watch products.json --port 3004```
+2. Visita http://localhost:3000/
+3. Disfruta ;)
