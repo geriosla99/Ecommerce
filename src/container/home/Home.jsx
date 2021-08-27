@@ -1,5 +1,5 @@
 import React from 'react'
-import { Carousel, Image } from 'react-bootstrap'
+import { Carousel } from 'react-bootstrap'
 import { useHistory } from 'react-router-dom'
 import Footer from '../../components/footer/Footer'
 import Header from '../../components/header/Header'

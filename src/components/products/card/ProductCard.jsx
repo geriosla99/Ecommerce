@@ -1,19 +1,32 @@
 import React from 'react'
 import { ImageCategories } from '../../../container/home/HomeStyled'
-import { ProductCardStyled } from '../ProductStyled'
+import { ProductCardStyled, StylesProduct } from '../ProductStyled'
+import { Link } from 'react-router-dom';
 
-const ProductCard = () => {
+const ProductCard = ({pro}) => {
     return (
         <>
-            <ProductCardStyled>
-                <h4>
-                    Producto 1
-                </h4>
-                <ImageCategories
-                    src='https://i.imgur.com/shlQ0XY.jpg' 
-                    alt='Producto'
-                />
-            </ProductCardStyled>  
+            <StylesProduct className='row'>
+                <Link
+                    to={{
+                        pathname: "/product-details",                       
+                        state: { pro: pro}
+                      }}
+                    style={{ textDecoration: 'none', color: 'inherit' }}
+                >
+                <ProductCardStyled className='col-4'>
+                    <h4>
+                        {pro.product}
+                    </h4>
+                    <ImageCategories
+                        src={pro.img}
+                        alt={pro.product}
+                    />
+                    {pro.price}
+                </ProductCardStyled>
+            
+                </Link> 
+            </StylesProduct>            
         </>
     )
 }

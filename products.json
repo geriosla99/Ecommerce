@@ -1,50 +1,66 @@
 {
-  "damas": [
+    "categories":[
+        {
+            "id":"Dama",
+            "name": "Categoria de dama"
+            
+        }, 
+        {
+            "id":"Caballero",
+            "name": "Categoria de caballero"
+        }
+    ],
+  "product":[
       {
           "id": 1,
+          "category": "Dama",
           "product": "Bolso tipo morral",
           "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eu magna id mi faucibus tempor ac eu ante. Nullam egestas consectetur euismod. Sed lorem mauris, commodo et erat quis, interdum porta libero. In pretium est vitae mattis lacinia. Nulla a velit risus. Pellentesque blandit dolor suscipit elit imperdiet, sit amet sollicitudin neque venenatis. Vivamus urna libero, pharetra nec semper sodales, vestibulum quis odio.",
           "img": "https://i.imgur.com/aDESKdC.jpg",
           "price": 35000
       },
       {
-          "id": 2,
-          "product": "Blusa de cuadros",
+          "id": 2,        
+          "category": "Dama",  
+          "product": "Blusa de cuadros",          
           "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eu magna id mi faucibus tempor ac eu ante. Nullam egestas consectetur euismod. Sed lorem mauris, commodo et erat quis, interdum porta libero. In pretium est vitae mattis lacinia. Nulla a velit risus. Pellentesque blandit dolor suscipit elit imperdiet, sit amet sollicitudin neque venenatis. Vivamus urna libero, pharetra nec semper sodales, vestibulum quis odio.",
           "img": "https://i.imgur.com/shlQ0XY.jpg",
           "price": 50000
       },
       {
-          "id": 3,
-          "product": "Blusa de cuadros",
+          "id": 3,  
+          "category": "Dama",        
+          "product": "Blusa de cuadros",          
           "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eu magna id mi faucibus tempor ac eu ante. Nullam egestas consectetur euismod. Sed lorem mauris, commodo et erat quis, interdum porta libero. In pretium est vitae mattis lacinia. Nulla a velit risus. Pellentesque blandit dolor suscipit elit imperdiet, sit amet sollicitudin neque venenatis. Vivamus urna libero, pharetra nec semper sodales, vestibulum quis odio.",
           "img": "https://i.imgur.com/6RymSEv.jpg",
           "price": 43000
           
-      }
-  ],
-  "caballeros": [
+      },
       {
-          "id": 4,
-          "product": "Corbata",
+          "id": 4,      
+          "category": "Caballero",  
+          "product": "Corbata",          
           "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eu magna id mi faucibus tempor ac eu ante. Nullam egestas consectetur euismod. Sed lorem mauris, commodo et erat quis, interdum porta libero. In pretium est vitae mattis lacinia. Nulla a velit risus. Pellentesque blandit dolor suscipit elit imperdiet, sit amet sollicitudin neque venenatis. Vivamus urna libero, pharetra nec semper sodales, vestibulum quis odio.",
           "img": "https://i.imgur.com/4FQGlcb.jpg",
           "price": 27000
       },
       {
-          "id": 5,
+          "id": 5,        
+          "category": "Caballero",  
           "product": "Camisa de cuadros",
           "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eu magna id mi faucibus tempor ac eu ante. Nullam egestas consectetur euismod. Sed lorem mauris, commodo et erat quis, interdum porta libero. In pretium est vitae mattis lacinia. Nulla a velit risus. Pellentesque blandit dolor suscipit elit imperdiet, sit amet sollicitudin neque venenatis. Vivamus urna libero, pharetra nec semper sodales, vestibulum quis odio.",
           "img": "https://i.imgur.com/2XW0Wo6.jpg",
           "price": 60000
       },
       {
-          "id": 6,
+          "id": 6,      
+          "category": "Caballero",    
           "product": "Gorro de lana",
           "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eu magna id mi faucibus tempor ac eu ante. Nullam egestas consectetur euismod. Sed lorem mauris, commodo et erat quis, interdum porta libero. In pretium est vitae mattis lacinia. Nulla a velit risus. Pellentesque blandit dolor suscipit elit imperdiet, sit amet sollicitudin neque venenatis. Vivamus urna libero, pharetra nec semper sodales, vestibulum quis odio.",
           "img": "https://i.imgur.com/yPzALf4.jpg",
           "price": 48000
           
       }
+    
   ]
 }
